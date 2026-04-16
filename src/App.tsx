@@ -4,10 +4,10 @@ const environment = import.meta.env.VITE_PUBLIC_ENVIRONMENT || "local";
 const version = import.meta.env.VITE_PUBLIC_VERSION || "dev-local";
 
 const notes = [
-  "Lint, tests y build como compuertas",
-  "Promoción por Pull Request",
+  "Pipeline de calidad activo",
+  "Promoción controlada de develop a staging",
   "Despliegue de staging en GitHub Pages",
-  "Cambio visible listo para promoción"
+  "Cambio promovido via Pull Request"  // 
 ];
 
 export default function App() {
